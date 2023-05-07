@@ -56,25 +56,30 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-  fs.writeFile(fileName, data, (err) => {
-    if (err) {
-      console.error(err);
-      return;
-    }
-    console.log(`README.md created successfully!`);
-  });
-}
+    console.log('writing to file...'); // add this line to check if function is being called
+    fs.writeFile(fileName, data, (err) => {
+      if (err) {
+        console.error(err);
+        return;
+      }
+      console.log(`README.md created successfully!`);
+    });
+  }
+  
+
 
 // function to initialize program
 async function init() {
-  try {
-    const answers = await inquirer.prompt(questions);
-    const markdown = generateMarkdown(answers);
-    writeToFile('README.md', markdown);
-  } catch (error) {
-    console.error(error);
+    try {
+      const answers = await inquirer.prompt(questions);
+      const markdown = generateMarkdown(answers);
+      console.log(markdown); // add this line to check the markdown output
+      writeToFile('README.md', markdown);
+    } catch (error) {
+      console.error(error);
+    }
   }
-}
+  
 
 // function call to initialize program
 init();
