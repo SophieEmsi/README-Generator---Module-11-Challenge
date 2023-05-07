@@ -75,9 +75,17 @@ function writeToFile(fileName, data) {
 
 
 // function to initialize program
-function init() {
+async function init() {
+    try {
+    const answers = await promptUser();
+    const readme = generateReadme(answers);
 
+    await writeFileAsync('README.md', readme);
+
+    console.log('Successfully generated README.md');
+  } catch (err) {
+    console.log(err);
+  }
 }
-
 // function call to initialize program
 init();
