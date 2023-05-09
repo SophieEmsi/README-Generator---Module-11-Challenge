@@ -68,4 +68,4 @@ If you have any questions, please contact me at sophie@sophie.com.
 
 ## Project Demonstration
 
-[label](App/Screen%20Recording%202023-05-09%20at%2011.39.30.mov)
+[label](App/Untitled_%20May%209,%202023%203_27%20PM.webm)
