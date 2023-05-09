@@ -30,12 +30,12 @@ const questions = [
     type: 'list',
     name: 'license',
     message: 'Please choose a license for your project:',
-    choices: ['MIT', 'GNU GPLv3', 'Apache License 2.0', 'ISC'],
+    choices: ['MIT', 'GNU GPLv3', 'Apache License 2.0', 'ISC', 'None'],
   },
   {
     type: 'input',
     name: 'contributing',
-    message: 'Please provide who contributed to this project:',
+    message: 'What are the contribution guidelines for this project:',
   },
   {
     type: 'input',

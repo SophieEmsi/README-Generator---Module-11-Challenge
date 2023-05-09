@@ -1,8 +1,8 @@
-# test
+# README-Generator---Module-11-Challenge
 
 ## Description
 
-test
+This project was to create a README generator using node.js.
 
 ## Table of Contents
 
@@ -15,26 +15,26 @@ test
 
 ## Installation
 
-test
+Please install node.js to your computer to use this project.
 
 ## Usage
 
-test
+To use this project please open node.js in the internal terminal in vs code.
 
 ## License
 
-This project is licensed under the GNU GPLv3 license.
+This project is licensed under the ISC license.
 
 ## Contributing
 
-test
+To contribute to this project please contact the creator Sophie McNally.
 
 ## Tests
 
-test
+No test instructions needed.
 
 ## Questions
 
-GitHub profile: https://github.com/test
+GitHub profile: https://github.com/sophiemc
 
-If you have any questions, please contact me at test.
+If you have any questions, please contact me at sophie@sophie.com.
