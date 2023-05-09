@@ -54,6 +54,52 @@ const questions = [
   },
 ];
 
+// function generateMarkdown(data) {
+//     return `# ${data.title}
+  
+//   ## Description
+  
+//   ${data.description}
+  
+//   ## Table of Contents
+  
+//   * [Installation](#installation)
+//   * [Usage](#usage)
+//   * [License](#license)
+//   * [Contributing](#contributing)
+//   * [Tests](#tests)
+//   * [Questions](#questions)
+  
+//   ## Installation
+  
+//   ${data.installation}
+  
+//   ## Usage
+  
+//   ${data.usage}
+  
+//   ## License
+  
+//   This project is licensed under the ${data.license} license.
+  
+//   ## Contributing
+  
+//   ${data.contributing}
+  
+//   ## Tests
+  
+//   ${data.tests}
+  
+//   ## Questions
+  
+//   GitHub profile: https://github.com/${data.github}
+  
+//   If you have any questions, please contact me at ${data.email}.
+//   `;
+//   }
+  
+
+
 // function to write README file
 function writeToFile(fileName, data) {
     console.log('writing to file...'); // add this line to check if function is being called
