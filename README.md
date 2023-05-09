@@ -68,4 +68,4 @@ If you have any questions, please contact me at sophie@sophie.com.
 
 ## Project Demonstration
 
-https://drive.google.com/file/d/1Lm-7IsaQJMiAFUxVnZsozx3fpiwRHDxf/preview
+https://drive.google.com/file/d/1Lm-7IsaQJMiAFUxVnZsozx3fpiwRHDxf/view
